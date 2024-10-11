@@ -15,7 +15,11 @@ connectCloudinary();
 
 //middlewares
 app.use(express.json())
-app.use(cors());
+app.use(cors({
+    origin:'https://doctors-appointment-frontend-indol.vercel.app',   
+    
+    credentials:true,
+}));
 
 
 //api endpoints
