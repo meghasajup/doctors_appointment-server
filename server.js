@@ -16,7 +16,7 @@ connectCloudinary();
 //middlewares
 app.use(express.json())
 app.use(cors({
-    origin: ['http://localhost:4000','https://prescriptodoctorappointment.vercel.app'],
+    origin: 'https://prescriptodoctorappointment.vercel.app',
     
     credentials:true,
 }));
