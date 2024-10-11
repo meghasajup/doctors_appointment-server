@@ -16,7 +16,7 @@ connectCloudinary();
 //middlewares
 app.use(express.json())
 app.use(cors({
-    origin:'https://doctors-appointment-frontend-git-main-megha-saju-p-projects.vercel.app',   
+    origin:'https://prescripto-git-main-megha-saju-p-projects.vercel.app',   
     
     credentials:true,
 }));
